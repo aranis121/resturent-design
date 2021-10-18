@@ -1,0 +1,226 @@
+/*header section start*/
+
+
+/*header_1 start*/
+
+.header_1 {
+    background-color: #460E0D;
+    color: white;
+    text-align: center;
+}
+
+.header_1 h4 {
+    font-size: 18px;
+    padding: 5px 0 0 0;
+}
+
+.header_1 h4 span {
+    color: #F7481C;
+}
+
+
+/*header_2 start*/
+
+.header_2 {
+    text-align: center;
+}
+
+.header_2 h1 {
+    font-weight: bold;
+}
+
+.header_2 span {
+    color: #F7481C;
+}
+
+.header_2 h3 {
+    font-family: 'Lato', sans-serif;
+    margin: 5px 0 0 0;
+}
+
+
+/*header_bg start*/
+
+.header_bg {
+    background: url(../image/bg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: auto;
+    position: relative;
+}
+.header_bg:before{
+  position: absolute;
+  content:" ";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display: block;
+  z-index:0;
+  background-color: rgba(130,0,0,0.5);
+}
+
+
+/*header_details start*/
+
+.header_details {
+    margin: 200px 0 0 0;
+}
+
+.header_details span {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 38px;
+    margin: 50px 0 0 0;
+}
+
+.header_details h1 {
+   font-size: 56px;
+    font-weight: 800;
+    padding: 0 0 0 40px;
+}
+
+.header_details h3 {
+    font-family: 'Lato', sans-serif;
+    padding: 0 0 0 40px;
+}
+
+
+/*header_form_bg start*/
+
+.header_form_bg {
+    background-color: #FD4F2D;
+    padding: 71px 25px;
+    text-align: center;
+}
+
+.form-control {
+    margin: 10px 0px 0 0;
+}
+
+.input-group-text {
+    margin: 10px 0 0 0;
+}
+
+.header_bg button {
+    background-color: #490F0E;
+    width: 100%;
+    margin: 10px 0 0 0;
+    color: white;
+}
+
+
+/*header section end*/
+
+
+/*item section start*/
+
+.card {
+    border: 1px solid white;
+}
+
+.card h1 {
+    font-weight: bold;
+}
+
+.items {
+    margin: 20px 0 0 0;
+    text-align: -webkit-center;
+}
+.circle{}
+.circle img {
+    width: 55%;
+    border-radius: 50%;
+    border: 5px solid #eee;
+   
+}
+
+
+/*item section end*/
+
+
+/*offer section start*/
+
+.offer {
+    background-color: #460E0D;
+    text-align: center;
+    color: white;
+    padding: 70px 0 70px;
+}
+
+.offer button {
+    background-color: #FD4F2D;
+    border: none;
+}
+
+
+/*offer section end*/
+
+
+/*meals section start*/
+
+.meals h1 {
+    font-size: 35px;
+    color: #460E0D;
+    margin: 50px 0 0 0
+}
+
+.meals img {
+    width: 100%;
+    min-height: 100%;
+}
+
+
+/*meals section end*/
+
+
+/*john smith section start*/
+
+.john_smith {
+    background-color: #FD4F2D;
+    color: white;
+}
+
+.john2 img {
+    width: 50px;
+    padding: 40px 0 0 0px;
+}
+
+.john1 {
+        padding: 30px 0 15px 0px;
+}
+
+.john1 img {
+    border-radius: 50%;
+    width: 70%;
+    margin: 35px 20px;
+    border: 8px solid white;
+}
+
+.john_smith h3 {
+    font-size: 23px;
+    padding: 50px 0 0 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+.john_smith h2 {
+    font-weight: bold;
+    padding: 15px 0 0 0
+}
+
+
+/*john smith section end*/
+
+
+/*footer scetion start*/
+
+.footer {
+    padding: 20px;
+}
+
+.footer span {
+    color: #F7481C;
+}
+
+
+/*footer scetion end*/
